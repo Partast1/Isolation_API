@@ -4,11 +4,12 @@
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>Isolation_API</module>
+        <module>Isolation_APITest</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
+      <element id="javaee-facet-resources" facet="Isolation_API/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Isolation_API" />
